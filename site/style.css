@@ -83,6 +83,20 @@ main h1 {
     
 }
 
+.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 main  h2 {
     color: var(--cor5);
     font-family: var(--fonte-android);
@@ -111,6 +125,24 @@ padding: 2px;
 main a:hover{
 text-decoration: underline;
 color: var(--cor3);
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
 }
 
 footer{
