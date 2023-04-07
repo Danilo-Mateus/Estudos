@@ -1,0 +1,39 @@
+@charset "utf-8";
+body{
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    
+}
+nav{
+    background-color: white;
+    text-align: center;
+    margin-left: 190px;
+    
+}
+h1{
+    font-family: cursive;
+    background-image: linear-gradient(to bottom, lightblue, blue);
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    min-height: 100px;
+    max-width: 1000px;
+    
+}
+
+main{
+    background-color: lightgreen;
+    padding-top: 40px;
+    max-width: 1000px;
+    text-align: center;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.3em;
+}
+main > .persona{
+    height: 500px;
+    margin: 400px;
+}
