@@ -21,7 +21,7 @@ body{
     background: #061220dc;
     color: rgb(224, 243, 224);
     font-family:var(--fonte4);
-    font-size: 0.96rem;
+    font-size: 1.5rem;
     font-weight: 300;
 
 }
@@ -55,7 +55,11 @@ header{
     display: inline-block;
     padding: 6px 15px;
 }
-
+.resumo{
+    display: flex;
+   flex-wrap: wrap;
+ margin-top: 200px;
+}
   
 #chk-toggle{
     display: none;
@@ -158,6 +162,7 @@ h2{
 }
 .esq{
     float: left;
+    
 }
 .margdir{
     margin-right: 13px;
@@ -165,4 +170,60 @@ h2{
 .w43{
   width: 35%;
   
+}
+.videos{
+    white-space: nowrap;
+    width: calc(100% + 15px);
+    display: block;
+    overflow-y: auto;
+}
+.videos ul{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 0;
+}
+.videos ul li{
+    display: inline-block;
+    width: 75%;
+    padding: 5px;
+}
+.videos ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.videos ul li img{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+.bgplay{
+    z-index: 1;
+    display: block;
+    position: absolute;
+}
+.play{
+    border: solid 3px #fff;
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255,255,255,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play span{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent  transparent #fff;
+    display: block;
+    margin-left: 2px;
+}
+.resumo{
+    margin-top: 40px;
+   font-size: 1.5rem;
+   text-align: justify;
 }
