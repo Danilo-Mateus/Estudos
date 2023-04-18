@@ -13,6 +13,7 @@
     box-sizing: border-box;
     position: relative;
     border: none;
+    
 }
 html, body{
     height: 100%;
@@ -34,7 +35,7 @@ body{
 }
 
 header{
-    background-color: rgba(35, 3, 94, 0.486);
+    background-color: rgba(52, 45, 66, 0.342);
     border-radius: 0 0 10px 20px;
     border-bottom: rgba(40, 11, 94, 0.733) solid 1px;
     margin: 0 7px;
@@ -154,11 +155,13 @@ width: 100%;
 bottom: 0;
 }
 h2{
+    margin-top: 6em;
     font-family: var(--fonte2);
     margin-top: 20px;
     font-family: var(--fonte3);
     font-weight: 700;
     margin-bottom: 10px;
+  
 }
 .esq{
     float: left;
@@ -226,4 +229,98 @@ h2{
     margin-top: 40px;
    font-size: 1.5rem;
    text-align: justify;
+}
+.videos{
+    width: 100%;
+    display: block;
+   
+}
+
+.videos ul{
+    list-style: none;
+    font-size: 0;
+}
+videos ul li{
+    display: inline-block;
+    width:43%;
+    
+}
+.videos ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.videos ul li img{
+    justify-content: center;
+     width: 90%;
+    height: 250px;
+    z-index: 0;
+    margin-left: 20px;
+}
+.videos ul li img:hover{
+    border: 5px solid white ;
+}
+.boxassine{
+    background-color: #312b2b;
+    border-bottom: #000;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+  margin-top: 30px;
+
+}
+ img{
+    width: 80%;
+}
+footer{
+    margin-top: 50px;
+    background-color: #1f1919;
+    text-align: center;
+    font-size: 1.5rem;
+}
+footer > a{
+    color: #fff;
+}
+footer > a:hover{
+    color: #008000;
+}
+.separacao{
+    margin-top: 8em;
+
+}
+@media only screen and (min-width: 600px){
+.videos{
+    white-space: normal;
+    width: 100%;
+}
+.videos ul li{
+    width: 50%;
+    display: inline-block;
+}
+}
+@media only screen and (min-width: 700px){
+nav{
+    height: auto;
+    overflow-y: unset;
+    flex-basis: unset;
+}
+#toggle{
+    display: none;
+}
+nav ul li{
+    display: inline-block;
+    border-bottom: none;
+}
+nav a{
+    padding: 8px 12px;
+}
+}
+@media only screen and (min-width: 700px){
+.bg{
+background-position: top;
+}
 }
