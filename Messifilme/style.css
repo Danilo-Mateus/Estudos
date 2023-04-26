@@ -21,7 +21,7 @@ html, body{
 body{
     background: #061220dc;
     color: rgb(224, 243, 224);
-    font-family:var(--fonte4);
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
 
@@ -32,10 +32,12 @@ body{
     background-size: cover;
     background-position: left ;
     height: 100%;
+    
+    background-attachment: fixed;
 }
 
 header{
-    background-color: rgba(52, 45, 66, 0.342);
+    background-color: rgba(0, 0, 0, 0.685);
     border-radius: 0 0 10px 20px;
     border-bottom: rgba(40, 11, 94, 0.733) solid 1px;
     margin: 0 7px;
@@ -46,6 +48,7 @@ header{
     position: absolute;
     z-index: 3;
     width: calc(100% - 14px);
+    position: fixed;
 }
 .logo{
     font-family: var(--fonte3);
@@ -55,6 +58,7 @@ header{
     font-size: 1.4rem;
     display: inline-block;
     padding: 6px 15px;
+    
 }
 .resumo{
     display: flex;
@@ -156,9 +160,9 @@ bottom: 0;
 }
 h2{
     margin-top: 6em;
-    font-family: var(--fonte2);
+    font-family:Arial, Helvetica, sans-serif;
     margin-top: 20px;
-    font-family: var(--fonte3);
+    
     font-weight: 700;
     margin-bottom: 10px;
   

@@ -1,30 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>    
-       <img width="1000px"  src="Inserir um título.png" alt="Foto de uma familia feliz">
-       <nav>
-            <link rel="" href="inicio">
-            <link rel="stylesheet" href="persona">
-            <link rel="stylesheet" href="mapa de empatia">
-            <link rel="stylesheet" href="contatos"></nav>
-       <header>
-        <h1>Tudo sobre cuidado e bem estar em um só lugar</h1>
-       </header>
-       <main>Bem estar é um conjunto de práticas que engloba uma boa nutrição, atividade física, bons relacionamentos interpessoais, familiares e sociais, além de controle do stresse.
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   
+  </body>
+  </head>
 
-        Pode-se assim dizer que bem-estar significa a saúde no seu sentido mais amplo, de maneira ativa e em todos os seus aspectos.
-        
-        O termo "bem-estar" aparece pela primeira vez no século XVI para designar a satisfação de necessidades físicas, enquanto que no século XVIII ele refere-se à situação material que permite satisfazer as necessidades da existência.
-        Para melhor explicação, vamos usar o persona:
+  <body>
+    <header style="z-index: 999;">
+      <nav>
+        <a class="logo"  style="text-decoration: none; " href="#">Saúde e bem estar</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list ">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Persona</a></li>
+          <li><a href="#">Problematica</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+       
+        <div id="carouselExampleIndicators" class="carousel slide" style="z-index: 0;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="height: 90vh; width: 100%;"id="meuamigo">
+              <div class="carousel-item active">
+                <img src="burger-g8d607c7dc_640.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="vegetables-g5122f48e7_1280.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" >
+                <img   src="woman-g6ebe42e0b_1280.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
-        <img  class="persona"  height="500px" src="WhatsApp Image 2023-03-28 at 15.26.46.jpeg" alt="">
     </main>
-</body>
+    <script src="mobile-navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</div>
+  </body>
+  </body>
 </html>
