@@ -62,11 +62,24 @@
     margin: 8px;
     transition: 0.3s;
   }
+  .textoo{
+    margin-top: 30px;
+    text-align: center;
+    
+  }
+  .texto2{
+    margin-top: 20px;
+    text-align: center;
+     font-size: 1.2rem;
+     margin: 100px;
+  }
+  
   
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
     }
+    
     .nav-list {
       position: absolute;
       top: 8vh;
